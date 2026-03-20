@@ -237,7 +237,6 @@ table tbody tr:hover {
     border: 5px solid #667eea;
 }
 
-/* Footer */
 footer {
     background-color: #2d3748;
     color: white;
@@ -288,7 +287,6 @@ footer img {
     100% { transform: rotate(360deg); }
 }
 
-/* Responsive Media Queries */
 @media (max-width: 768px) {
     .dashboard-grid {
         grid-template-columns: 1fr;
@@ -325,7 +323,6 @@ input[type="radio"] {
     cursor: pointer;
 }
 
-/* Ordered List for Lessons */
 ol.lesson-list {
     counter-reset: lesson-counter;
     list-style: none;
